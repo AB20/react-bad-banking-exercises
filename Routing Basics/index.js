@@ -9,11 +9,13 @@ function Spa() {
           <h1>Routing - Hello World</h1>
           <Link to="/">Home</Link> -- 
           <Link to="/about/">About</Link> -- 
-          <Link to="/products">Products</Link>
+          <Link to="/products">Products</Link> --
+          <Link to="/inventory">Inventory</Link>
           <hr/>
           <Route path="/" exact    component={Home}     />
           <Route path="/about/"    component={About}    />          
           <Route path="/products/" component={Products} />
+          <Route path="/inventory/" component={Inventory} />
       </div>
     </HashRouter>
   );
